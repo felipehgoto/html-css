@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div>p{
+            display:none;
+        }
+
+
+        div {
+            text-align: center;
+            background-color: lightgray;
+            display: table;
+            border: 1px solid black;
+            height: 30px;
+            width: 200px;
+        }     
+        
+        div:hover{
+            background-color: black;
+            color: white;
+            text-align: left;
+            
+        }
+
+        div:hover>p{
+            display:table;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>PRINCIPAIS PRAIAS</h1>
+    <p>DESCUBRA POR ESTADO</p>
+
+    <div>  
+        SANTA CATARINA      
+        <p>
+            São Francisco do Sul, Barra Velha, Itajuba
+        </p>
+    </div>
+    <div> 
+        SÃO PAULO       
+        <p>
+            Guarujá, Bertioga, Riviera
+        </p>
+    </div>
+    <div>   
+        RIO DE JANEIRO   
+        <p>
+            Trindade , Paraty, Angra dos Reis
+        </p>
+    </div>
+        
+</body>
+</html>
