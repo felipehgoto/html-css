@@ -90,7 +90,7 @@ section.imagem > p {
 }
 
 section#img01 {
-    background-image: url('../d012/imagens/background001.jpg');
+    background-image: url('../imagens/background001.jpg');
     background-position: right center;
     
     
@@ -98,10 +98,9 @@ section#img01 {
 }
 
 section#img02 {
-    background-image: url('../d012/imagens/background002.jpg');
+    background-image: url('../imagens/background002.jpg')
     
     
-
 }
 
 
