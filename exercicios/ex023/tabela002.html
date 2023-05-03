@@ -13,6 +13,7 @@
         table {
             width:  500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -28,8 +29,14 @@
         }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: #383838;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
         }
 
         tbody > tr:nth-child(odd) { /* 2n-1*/
@@ -42,6 +49,8 @@
         .num {
             text-align: right;
         }
+
+        
 
     </style>   
 </head>
@@ -190,12 +199,21 @@
 
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
-                <td class="num"><strong>210.147.125</strong></td>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num">210.147.125</td>
             </tr>
         </tfoot>
+               
 
     </table>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, rem iste facilis voluptates earum aliquid vitae est doloribus laboriosam voluptatem, laudantium esse sequi cumque architecto vero ad culpa, molestias eum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum voluptatibus, neque vitae vel vero fuga, rem et praesentium incidunt necessitatibus earum ab? Debitis quod officia, in minima incidunt quibusdam possimus.lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quo cumque rem deleniti, natus iusto alias ratione expedita, quae id neque sapiente impedit iure. Ut quos mollitia nemo debitis est! Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nam commodi sunt saepe odio, aliquid temporibus deleniti laborum eum repellendus nostrum maiores iste at quis provident distinctio expedita dolore debitis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae fugiat placeat ea quas dolorem perferendis doloribus dignissimos! Ex odit eveniet alias corporis quaerat! Debitis quasi dignissimos et, voluptates libero sapiente.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, rem iste facilis voluptates earum aliquid vitae est doloribus laboriosam voluptatem, laudantium esse sequi cumque architecto vero ad culpa, molestias eum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum voluptatibus, neque vitae vel vero fuga, rem et praesentium incidunt necessitatibus earum ab? Debitis quod officia, in minima incidunt quibusdam possimus.lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quo cumque rem deleniti, natus iusto alias ratione expedita, quae id neque sapiente impedit iure. Ut quos mollitia nemo debitis est! Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nam commodi sunt saepe odio, aliquid temporibus deleniti laborum eum repellendus nostrum maiores iste at quis provident distinctio expedita dolore debitis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae fugiat placeat ea quas dolorem perferendis doloribus dignissimos! Ex odit eveniet alias corporis quaerat! Debitis quasi dignissimos et, voluptates libero sapiente.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, rem iste facilis voluptates earum aliquid vitae est doloribus laboriosam voluptatem, laudantium esse sequi cumque architecto vero ad culpa, molestias eum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum voluptatibus, neque vitae vel vero fuga, rem et praesentium incidunt necessitatibus earum ab? Debitis quod officia, in minima incidunt quibusdam possimus.lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quo cumque rem deleniti, natus iusto alias ratione expedita, quae id neque sapiente impedit iure. Ut quos mollitia nemo debitis est! Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nam commodi sunt saepe odio, aliquid temporibus deleniti laborum eum repellendus nostrum maiores iste at quis provident distinctio expedita dolore debitis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae fugiat placeat ea quas dolorem perferendis doloribus dignissimos! Ex odit eveniet alias corporis quaerat! Debitis quasi dignissimos et, voluptates libero sapiente.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, rem iste facilis voluptates earum aliquid vitae est doloribus laboriosam voluptatem, laudantium esse sequi cumque architecto vero ad culpa, molestias eum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum voluptatibus, neque vitae vel vero fuga, rem et praesentium incidunt necessitatibus earum ab? Debitis quod officia, in minima incidunt quibusdam possimus.lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quo cumque rem deleniti, natus iusto alias ratione expedita, quae id neque sapiente impedit iure. Ut quos mollitia nemo debitis est! Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nam commodi sunt saepe odio, aliquid temporibus deleniti laborum eum repellendus nostrum maiores iste at quis provident distinctio expedita dolore debitis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae fugiat placeat ea quas dolorem perferendis doloribus dignissimos! Ex odit eveniet alias corporis quaerat! Debitis quasi dignissimos et, voluptates libero sapiente.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, rem iste facilis voluptates earum aliquid vitae est doloribus laboriosam voluptatem, laudantium esse sequi cumque architecto vero ad culpa, molestias eum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum voluptatibus, neque vitae vel vero fuga, rem et praesentium incidunt necessitatibus earum ab? Debitis quod officia, in minima incidunt quibusdam possimus.lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quo cumque rem deleniti, natus iusto alias ratione expedita, quae id neque sapiente impedit iure. Ut quos mollitia nemo debitis est! Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nam commodi sunt saepe odio, aliquid temporibus deleniti laborum eum repellendus nostrum maiores iste at quis provident distinctio expedita dolore debitis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae fugiat placeat ea quas dolorem perferendis doloribus dignissimos! Ex odit eveniet alias corporis quaerat! Debitis quasi dignissimos et, voluptates libero sapiente.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, rem iste facilis voluptates earum aliquid vitae est doloribus laboriosam voluptatem, laudantium esse sequi cumque architecto vero ad culpa, molestias eum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum voluptatibus, neque vitae vel vero fuga, rem et praesentium incidunt necessitatibus earum ab? Debitis quod officia, in minima incidunt quibusdam possimus.lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quo cumque rem deleniti, natus iusto alias ratione expedita, quae id neque sapiente impedit iure. Ut quos mollitia nemo debitis est! Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nam commodi sunt saepe odio, aliquid temporibus deleniti laborum eum repellendus nostrum maiores iste at quis provident distinctio expedita dolore debitis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae fugiat placeat ea quas dolorem perferendis doloribus dignissimos! Ex odit eveniet alias corporis quaerat! Debitis quasi dignissimos et, voluptates libero sapiente.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, rem iste facilis voluptates earum aliquid vitae est doloribus laboriosam voluptatem, laudantium esse sequi cumque architecto vero ad culpa, molestias eum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum voluptatibus, neque vitae vel vero fuga, rem et praesentium incidunt necessitatibus earum ab? Debitis quod officia, in minima incidunt quibusdam possimus.lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quo cumque rem deleniti, natus iusto alias ratione expedita, quae id neque sapiente impedit iure. Ut quos mollitia nemo debitis est! Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nam commodi sunt saepe odio, aliquid temporibus deleniti laborum eum repellendus nostrum maiores iste at quis provident distinctio expedita dolore debitis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae fugiat placeat ea quas dolorem perferendis doloribus dignissimos! Ex odit eveniet alias corporis quaerat! Debitis quasi dignissimos et, voluptates libero sapiente.</p>
     
 </body>
 </html>
